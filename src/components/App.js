@@ -6,9 +6,6 @@ const StarMatch = () => {
 	return <Game key={gameId} startNewGame={() => setGameId(gameId + 1)}/>;
 }
 
-
-
-
 export function App() {
   return (
     <StarMatch />
